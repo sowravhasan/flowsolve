@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* global color root */
+
+:root {
+  --primary-color: #0f151f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  outline: none !important;
+}
+
+input:focus {
+  outline: none !important;
+  border: none !important;
+  background: #f2f5fa !important;
+  box-shadow: none;
+}
+
+/* === Header ==== */
+.desktop-menu ul .nav-item .nav-link {
+  color: #fff;
+}
+
+.desktop-menu .navbar-nav {
+  gap: 80px;
+}
+.desktop-menu {
+  border-bottom: 1px solid #033775;
+}
+.header-desk {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 70px;
+  padding-top: 5px;
+}
+
+/* ==== Header ==== */
+
+/* == Hero Section Style=== */
+
+.Hero_area_container {
+  margin-top: -185px;
+  background-image: url('../img/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 120vh;
+  position: relative;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.Hero_content .sub-title h3 {
+  color: #66ff99;
+  text-transform: uppercase;
+  letter-spacing: 35px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+.heading-title {
+  padding: 20px 0;
+}
+.heading-title h1 {
+  font-size: 110px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.discription-para {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.discription-para p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.services_section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.serv-content_left .title h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 600;
+}
+.serv_discription p {
+  color: #99a6bf;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.serv_discription .sectond_dis {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bar-shape {
+  background: #c1cee79a;
+  height: 1px;
+  display: block;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.serv-card img {
+  height: 307px;
+  object-fit: cover;
+}
+.serv-card .card-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.serv-card .card-text {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+/* ======= about  */
+
+.About {
+  padding: 120px 0;
+}
+
+.about-heading .title h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 600;
+}
+.about-disone {
+  max-width: 70%;
+}
+.about-disone .sectond_dis {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.buletpoint {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #61b3f2;
+  display: block;
+}
+
+.about_mission .about-sub-title {
+  color: #61b3f2;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.about_mission .content {
+  gap: 100px;
+}
+
+.about_dis {
+  max-width: 85%;
+}
+.about_mission .about_dis {
+  color: #99a6bf;
+}
+
+.technology_about .techimage {
+  height: 800px;
+  object-fit: cover;
+}
+
+.technology_content {
+  background-color: #fff;
+}
+
+.technology_content {
+  padding: 90px;
+  height: 800px;
+}
+
+.tecch_heading h1 {
+  color: #1e2838;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 80px;
+}
+.tech_disription p {
+  font-size: 18px;
+}
+/* /about===== */
+
+/* ======= team CSS===== */
+.Team_card {
+  height: 670px;
+}
+
+.borderb {
+  border-bottom: 4px solid #47b26b;
+}
+
+.borderbm {
+  border-bottom: 4px solid #5e96eb;
+}
+.Team_card .card {
+  height: 100%;
+}
+
+.Team_card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.team_members {
+  padding-top: 120px;
+}
+
+.team_headin_content .heading-title h1 {
+  font-size: 70px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team_discription {
+  max-width: 40%;
+  margin: auto;
+}
+.team_discription p {
+  text-align: center;
+  color: #99a6bf;
+}
+
+.followbutton {
+  background: #5e96eb;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.pattran {
+  border-bottom: 1px solid #ddd;
+}
+
+.temm_member_img {
+  text-align: center;
+  border: 1px solid #ddd;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #fff;
+  margin-top: -100px;
+}
+.temm_member_img img {
+  width: 85%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Team_card .card-title {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.Team_card .designations {
+  color: #5e96eb;
+  font-weight: 600;
+  letter-spacing: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.Team_card .card-text {
+  color: #0f151f;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+/*=============== Team Section =========== */
+
+/* Advisors- ====== */
+.Advisors-containerbg {
+  background-image: url('../img/Advisors.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  border-bottom: 1px solid #033775;
+  height: 705px;
+}
+
+.Advisors-containerbg .heading-title h1 {
+  font-size: 70px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.Advisors-containerbg .Advisors_discription p {
+  color: #99a6bf;
+  text-align: center;
+  max-width: 40%;
+  margin: auto;
+}
+
+.Advisors {
+  padding-top: 90px;
+}
+
+.Advisors_card {
+  background: none !important;
+  border: none !important;
+}
+.Advisors_card img {
+  width: 120px;
+  margin: auto;
+}
+
+.Advisors_card .card-body .card-title {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+}
+.Advisors_card .card-body {
+  padding-bottom: 0;
+  text-align: center;
+}
+.Advisors_card .card-body .card-text {
+  color: #5e96eb;
+  font-size: 20px;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+.Advisors_card a {
+  text-align: center;
+  background: #5e96eb;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 65px;
+  border: 4px solid #003673;
+}
+.Advisors_card a:hover {
+  border: 4px solid #003673;
+}
+.Advisors_card a img {
+  width: 35px;
+}
+
+.follw-solve {
+  background: transparent;
+  color: #fff;
+  outline: none;
+  border: 1px solid #99a6bf;
+  border-bottom: 3px solid #66ff99;
+  width: 70%;
+  padding: 17px;
+}
+
+.Our_approach {
+  padding-bottom: 120px;
+  padding-top: 80px;
+}
+.approach_container {
+  border-left: 1px solid #99a6bf33;
+}
+
+.approach_content .heading h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.approach_content .heading p {
+  color: #b0cceb;
+  font-size: 18px;
+  max-width: 85%;
+}
+
+.contact-bg {
+  background-image: url('../img/contactbg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.contact .title h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.contact .contact-discription p {
+  color: #b0cceb;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 80px 30px;
+  border-top: 4px solid #47b26b;
+}
+
+.contact-form input {
+  border-radius: 0;
+  border: 1px solid #f2f5fa;
+  background: #f2f5fa;
+  padding: 12px;
+}
+
+.contact-form input:focus {
+  outline: none;
+  box-shadow: none;
+  background: #f2f5fa;
+  border: 1px solid #f2f5fa;
+}
+
+.contact-form input::placeholder {
+  color: #a0abbd;
+  font-weight: 600;
+}
+.contact-form textarea::placeholder {
+  color: #a0abbd;
+  font-weight: 600;
+}
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  background: #f2f5fa;
+  border: 1px solid #f2f5fa;
+}
+.contact-form textarea {
+  outline: none;
+  border: 1px solid #f2f5fa;
+  border-radius: 0;
+  height: 150px;
+  background: #f2f5fa;
+}
+
+.contact-form .submit {
+  padding: 12px 40px;
+  border-radius: 0;
+  border: 1px solid #d9dadb;
+  border-bottom: 3px solid #47b26b;
+}
+
+.footer-section {
+  margin-top: -150px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  background-color: #061224;
+  border-top: 1px solid #1e2838;
+}
+.footer-content h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: -30px;
+}
+.socials-icons {
+  padding-top: 20px;
+}
+.socials-icons a {
+  display: inline-block;
+  padding: 0 5px;
+}
+.socials-icons a img {
+  height: 50px;
+}
+
+.footer-right-content {
+  gap: 80px;
+  margin-top: 40px;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.copyright span {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #2e5285;
+  display: inline-block;
+}
+.copyright p {
+  margin-bottom: 0;
+  color: #2e5285;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-right-content p {
+  text-transform: uppercase;
+}
+/* sponsive CSS  */
+
+.nav-mobile-version {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 840px) and (max-width: 1020px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 100px) and (max-width: 540px) {
+  /* header  menu responsive css  */
+
+  .desktop-menu .navbar-nav {
+    gap: 5px;
+  }
+
+  .nav-brand {
+    display: none;
+  }
+
+  .nav-mobile-version {
+    display: block;
+    margin-right: 20px;
+  }
+
+  #navbarSupportedContent {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background: #0f151f;
+    transition: all 0.1s ease-in;
+  }
+  .navbar-toggler {
+    margin-left: 10px;
+  }
+
+  /* ===== Hearo  Area  */
+
+  .Hero_area .heading-title h1 {
+    font-size: 40px;
+  }
+  .Hero_area_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Hero_area .discription-para {
+    max-width: 90%;
+  }
+
+  .Hero_area_container {
+    min-height: 70vh;
+  }
+  .Hero_content .sub-title h3 {
+    color: #66ff99;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  .discription-para p {
+    font-size: 17px;
+  }
+}
