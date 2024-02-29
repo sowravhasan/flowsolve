@@ -643,6 +643,9 @@ input:focus {
   font-size: 25px;
   font-weight: 600;
 }
+.Advisors-containerbg .Advisors_discription p {
+  padding-bottom: 40px;
+}
 
 }
 
@@ -737,6 +740,87 @@ button.follw-solve.mt-3 {
 .nav-mobile-version {
   margin-right: 0px;
 }
+.Hero_content .sub-title h3 {
+  color: #66ff99;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+}
+.heading-title h1 {
+  font-size: 45px;
+}
+.discription-para p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.serv-content_left .title h1 {
+  font-size: 40px;
+}
+.serv-card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.about-heading .title h1 {
+  font-size: 40px;
+}
+.about-disone .sectond_dis {
+  font-size: 16px;
+  font-weight: 500;
+}
+.about_mission .about-sub-title {
+  margin-bottom: 4px;
+  color: #61b3f2;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.about_dis {
+  max-width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.tecch_heading h1 {
+  color: #1e2838;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.team_headin_content .heading-title h1 {
+  font-size: 40px;
+}
+.team_discription {
+  max-width: 90%;
+  margin: auto;
+}
+.Advisors-containerbg .heading-title h1 {
+  font-size: 40px;
+}
+.Advisors-containerbg .Advisors_discription p {
+  color: #99a6bf;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+}
+.logo_for_approch.text-center img{
+  width: 100px;
+}
+.approach_content .heading h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+.approach_content .heading p {
+  color: #b0cceb;
+  margin-top: 20px;
+  font-size: 16px;
+  max-width: 100%;
+}
+.contact .title h1 {
+  font-size: 40px;
+}
 }
 
 @media only screen and (max-width: 540px) {
@@ -753,6 +837,9 @@ button.follw-solve.mt-3 {
   .Hero_area .discription-para {
     max-width: 90%;
   }
+  .discription-para p {
+    font-size: 16px;
+}
 
   .Hero_area_container {
     min-height: 110vh;
@@ -760,12 +847,49 @@ button.follw-solve.mt-3 {
   .Hero_content .sub-title h3 {
     color: #66ff99;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
   }
-  .discription-para p {
-    font-size: 17px;
-  }
+  .serv-content_left .title h1 {
+    font-size: 35px;
+}
+.About {
+  padding: 20px;
+}
+.about-heading .title h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.approach_content .heading h1 {
+  font-size: 35px;
+  line-height: 40px;
+}
+.contact .title h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.tecch_heading h1 {
+  color: #1e2838;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.team_headin_content .heading-title h1 {
+  font-size: 35px;
+}
+.About {
+  padding: 10px;
+}
+.Advisors {
+  padding-bottom: 50px;
+}
+.footer-right-content {
+  gap: 5px;
+}
+.copyright {
+  gap: 5px;
+}
 }
